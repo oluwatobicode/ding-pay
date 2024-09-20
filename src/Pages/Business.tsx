@@ -10,15 +10,17 @@ import MobileNav from "../Ui/bussiness/MobileNav";
 
 const Bussiness: React.FC = () => {
   return (
-    <main>
+    <>
       <MobileNav />
-      <BussinessHero />
-      <Features />
-      <Benefits />
-      <HowItWorks />
-      <FAQ />
-      <Footer />
-    </main>
+      <main className="bussiness-main">
+        <BussinessHero />
+        <Features />
+        <Benefits />
+        <HowItWorks />
+        <FAQ />
+        <Footer />
+      </main>
+    </>
   );
 };
 export default Bussiness;

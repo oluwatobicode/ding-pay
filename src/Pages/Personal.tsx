@@ -11,7 +11,7 @@ const Personal: React.FC = () => {
   return (
     <>
       <MobileNav />
-      <main className="">
+      <main className="personal-main">
         <Hero />
         <Features />
         <Benefits />

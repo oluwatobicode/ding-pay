@@ -66,3 +66,20 @@ html {
 .faq {
   margin: 1rem;
 }
+
+/* For screens larger than or equal to 1536px */
+@media (min-width: 1536px) {
+  /* Your styles here for 'desktop-above' */
+  .personal-main {
+    max-width: 1536px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* 
+For screens larger than or equal to 1440px
+@media (min-width: 1440px) {
+  Your styles here for 'desktop'
+} */
