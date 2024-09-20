@@ -10,15 +10,15 @@ const faqItems = [
   },
   {
     title: "Which banks support Ding Pay?",
-    desc: "Dingpay is as secure as any other POS transaction, even better. We use unique sound frequencies that are untraceable and inaudible to the human ear. We don't share your card details with merchants, and your actual card numbers aren't stored on your device or on Dingpay's servers. In short, Dingpay is not just secure, but you also are secure.",
+    desc: "Ding Pay is currently working to be compatible with major credit and debit cards from banks in Nigeria, with more added all the time. View the banks that support Ding pay here.",
   },
   {
     title: "Does it cost extra to use Ding Pay?",
-    desc: "Dingpay is as secure as any other POS transaction, even better. We use unique sound frequencies that are untraceable and inaudible to the human ear. We don't share your card details with merchants, and your actual card numbers aren't stored on your device or on Dingpay's servers. In short, Dingpay is not just secure, but you also are secure.",
+    desc: "No. Ding Pay does not charge any fees when you make payments in a store, or online.",
   },
   {
     title: "Can I use Ding Pay abroad?",
-    desc: "Dingpay is as secure as any other POS transaction, even better. We use unique sound frequencies that are untraceable and inaudible to the human ear. We don't share your card details with merchants, and your actual card numbers aren't stored on your device or on Dingpay's servers. In short, Dingpay is not just secure, but you also are secure.",
+    desc: "Dingpay is currently available in Nigeria. We’re working on expanding to more countries sooner than you think. So stay tuned.",
   },
 ];
 

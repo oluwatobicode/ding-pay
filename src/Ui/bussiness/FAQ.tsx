@@ -10,11 +10,11 @@ const faqItems = [
   },
   {
     title: "What kind of phone does my customer need to make payments?",
-    desc: "Dingpay is as secure as any other POS transaction, even better. We use unique sound frequencies that are untraceable and inaudible to the human ear. We don't share your card details with merchants, and your actual card numbers aren't stored on your device or on Dingpay's servers. In short, Dingpay is not just secure, but you also are secure.",
+    desc: "Any iOS or Android device with the Dingpay app installed can be used for seamless transactions.",
   },
   {
     title: "What will it cost me to use the Ding Wallet?",
-    desc: "Dingpay is as secure as any other POS transaction, even better. We use unique sound frequencies that are untraceable and inaudible to the human ear. We don't share your card details with merchants, and your actual card numbers aren't stored on your device or on Dingpay's servers. In short, Dingpay is not just secure, but you also are secure.",
+    desc: "We only charge for transactions.",
   },
 ];
 
