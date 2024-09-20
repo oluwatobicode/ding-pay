@@ -1,0 +1,43 @@
+.mobile-active-link {
+  background-color: #6867e2;
+  color: #fff;
+  padding: 1rem;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-nav-link {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-nav {
+    display: flex;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mobile-nav {
+    display: flex;
+    margin: 1rem;
+  }
+}

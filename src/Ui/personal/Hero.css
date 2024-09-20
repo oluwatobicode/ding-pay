@@ -1,0 +1,241 @@
+.hero-section {
+  background-color: white;
+  /* height: 80vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* navbar */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 5px;
+  margin-right: auto;
+}
+
+.ding-pay-text {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 19.56px;
+  line-height: 24.45px;
+  margin-left: 1rem;
+}
+
+.nav-section {
+  margin: 2rem;
+  max-width: 1150px;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links {
+  margin-left: 3rem;
+}
+
+.nav-links-two {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-style: 500;
+  line-height: 19.36px;
+  list-style: none;
+  color: var(--text-color);
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: 500;
+  line-height: 19.36px;
+}
+
+/* hero-section */
+
+.hero-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 5rem;
+  max-width: 100%;
+}
+
+.heading-text {
+  width: 545px;
+}
+
+.heading-text > h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 72.61px;
+  color: var(--text-colorFour);
+}
+
+.heading-text > p {
+  margin-top: 1rem;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.heading-text-span {
+  display: block;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--text-colorOne);
+}
+
+.hero-illustration {
+  width: 100%;
+  max-width: 600px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-top: 2rem;
+}
+
+.email-input {
+  width: 366px;
+  height: 51px;
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #f9fafb;
+}
+
+.email-input:placeholder-shown {
+  font-size: 16px;
+}
+
+.bta-btn {
+  width: 200px;
+  border: none;
+  background-color: var(--text-colorOne);
+  border-radius: 100px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  cursor: pointer;
+}
+
+.active-link {
+  padding: 0.6rem 1rem;
+  background-color: #6867e2;
+  border-radius: 150px;
+  color: #fff;
+}
+
+/* responsivness on tablets */
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-two {
+    display: none;
+  }
+
+  .hero-illustration {
+    display: none;
+  }
+
+  .heading-text {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bta-btn {
+    width: 250px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading-text > h1 {
+    font-size: 40px;
+    line-height: 48.41px;
+  }
+
+  .heading-text {
+    max-width: 336px;
+  }
+
+  .heading-text > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .email-input {
+    width: 300px;
+    height: 51px;
+  }
+
+  .bta-btn {
+    width: 170px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .heading-text > h1 {
+    font-size: 40px;
+    line-height: 48.41px;
+  }
+
+  .heading-text {
+    max-width: 336px;
+  }
+
+  .heading-text > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .email-input {
+    width: 200px;
+    height: 51px;
+  }
+
+  .bta-btn {
+    width: 170px;
+    height: 50px;
+  }
+}

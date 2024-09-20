@@ -1,0 +1,66 @@
+.footer-section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo-text {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-size: 19.56px;
+  line-height: 24.45px;
+  color: var(--text-colorThree);
+}
+
+.footer-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer-cta p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: var(--text-colorThree);
+}
+
+.footer-cta-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.footer-cta-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: var(--text-colorThree);
+}
+
+@media screen and (max-width: 500px) {
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-cta {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
