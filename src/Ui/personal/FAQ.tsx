@@ -35,33 +35,35 @@ const FAQ: React.FC = () => {
         <div className="faq-box">
           <h1 className="faq-box-title">FREQUENTLY ASKED QUESTIONS</h1>
 
-          <div className="faq-section-box">
-            {faqItems.map((el, i) => (
-              <div className="questions-section" key={i}>
-                <div className="question-each">
-                  <div className="questions-align">
-                    <h4>{el.title}</h4>
-                    <button
-                      onClick={() => toggleAccordion(i)}
-                      className={`question-icon`}
+          <div className="faqs-content">
+            <div className="faq-section-box">
+              {faqItems.map((el, i) => (
+                <div className="questions-section" key={i}>
+                  <div className="question-each">
+                    <div className="questions-align">
+                      <h4>{el.title}</h4>
+                      <button
+                        onClick={() => toggleAccordion(i)}
+                        className={`question-icon`}
+                      >
+                        {activeIndex === i ? <FiMinus /> : <FaPlus />}
+                      </button>
+                    </div>
+                    <div
+                      className={`answer ${activeIndex === i ? "active" : ""}`}
+                      style={{
+                        maxHeight: activeIndex === i ? "1000px" : "0",
+                        overflow: "hidden",
+                        transition: "max-height 0.6s ease",
+                        padding: activeIndex === i ? "1rem" : "0 1rem",
+                      }}
                     >
-                      {activeIndex === i ? <FiMinus /> : <FaPlus />}
-                    </button>
-                  </div>
-                  <div
-                    className={`answer ${activeIndex === i ? "active" : ""}`}
-                    style={{
-                      maxHeight: activeIndex === i ? "1000px" : "0",
-                      overflow: "hidden",
-                      transition: "max-height 0.6s ease",
-                      padding: activeIndex === i ? "1rem" : "0 1rem",
-                    }}
-                  >
-                    <p>{el.desc}</p>
+                      <p>{el.desc}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
         <div className="faq-image">

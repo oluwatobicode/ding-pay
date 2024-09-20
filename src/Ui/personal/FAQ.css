@@ -12,6 +12,12 @@
   background-color: white;
   padding: 2rem;
   width: 70%;
+  height: 600px;
+}
+
+.faqs-content {
+  flex-grow: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .faq-box-title {

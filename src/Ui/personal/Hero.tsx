@@ -90,10 +90,10 @@ const Hero: React.FC = () => {
               </button>
             </div>
           </div>
-          <div className="">
+          <div className="personal-hero-illustration-box">
             <img
               className="hero-illustration"
-              src="/assets/Hero-illustration.png"
+              src="/assets/personal-hero-illustartion.png"
               alt="hero-illustration"
             />
           </div>

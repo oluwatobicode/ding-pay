@@ -19,7 +19,7 @@
 .benefits-details {
   display: flex;
   flex-direction: row;
-  margin-top: 5rem;
+  margin-top: 8rem;
   gap: 30px;
 }
 

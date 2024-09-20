@@ -1,6 +1,5 @@
 .how-it-works {
   padding: 50px 0;
-  text-align: center;
   background-color: white;
   margin: 1rem;
 }
@@ -17,8 +16,8 @@
 .how-it-works-section {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
+  align-items: center;
+  /* justify-content: flex-start; */
 }
 
 .steps-container {
@@ -26,7 +25,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  max-width: 1200px;
+  max-width: 1800px;
   margin: 0 auto;
   position: relative;
 }
