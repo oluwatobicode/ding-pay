@@ -79,6 +79,7 @@
   margin-bottom: 5rem;
   max-width: 100%;
   gap: 25px;
+  margin-top: 2rem;
 }
 
 .bussiness-text {
@@ -150,15 +151,15 @@
   cursor: pointer;
 }
 
-.success-api{
+.success-api {
   background-color: #249333;
 }
 
-.failure-api{
-  background-color: #6867E2;
+.failure-api {
+  background-color: #6867e2;
 }
 
-.processing-api{
+.processing-api {
   opacity: 0.7;
   cursor: not-allowed;
 }

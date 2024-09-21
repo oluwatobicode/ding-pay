@@ -3,26 +3,28 @@ import "./MobileNav.css";
 
 const MobileNav = () => {
   return (
-    <div className="mobile-nav">
-      <ul className="mobile-nav-items">
-        <li className="mobile-nav-link">
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? "mobile-active-link" : "")}
-          >
-            <span>Personal</span>
-          </NavLink>
-        </li>
+    <div className="mobile-navbar">
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive
+            ? "mobile-navbar-link mobile-active-link"
+            : "mobile-navbar-link"
+        }
+      >
+        Personal
+      </NavLink>
 
-        <li className="mobile-nav-link">
-          <NavLink
-            to="/Business"
-            className={({ isActive }) => (isActive ? "mobile-active-link" : "")}
-          >
-            <span>Business</span>
-          </NavLink>
-        </li>
-      </ul>
+      <NavLink
+        to="/Business"
+        className={({ isActive }) =>
+          isActive
+            ? "mobile-navbar-link mobile-active-link"
+            : "mobile-navbar-link"
+        }
+      >
+        Business
+      </NavLink>
     </div>
   );
 };

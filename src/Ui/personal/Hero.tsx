@@ -5,39 +5,40 @@ import classNames from "classnames";
 import axios from "axios";
 
 const Hero: React.FC = () => {
-  const [email, setEmai] = useState('')
-  const [status, setStatus] = useState(false)
-  const [loading, setLoading] = useState(false)
+  const [email, setEmai] = useState("");
+  const [status, setStatus] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const baseURL = 'https://ding-pay-subscription-proxy-production.up.railway.app'
-  
+  const baseURL =
+    "https://ding-pay-subscription-proxy-production.up.railway.app";
 
-  const handleSubmit = async() => { 
+  const handleSubmit = async () => {
     if (loading) {
-      return
-    }  
-    setLoading(true)
-    try {
-      const response = await axios.post(`${baseURL}/api/subscribe`, {
-        email,
-        tags: ['personal']
-      },
-      {
-        withCredentials: true
-      }
-    )
-  
-      if (response.status){
-        setStatus(true)
-        setEmai('')
-      }
-    
-    } catch (error) {
-      setStatus(false)
-    } finally {
-      setLoading(false)
+      return;
     }
-  }
+    setLoading(true);
+    try {
+      const response = await axios.post(
+        `${baseURL}/api/subscribe`,
+        {
+          email,
+          tags: ["personal"],
+        },
+        {
+          withCredentials: true,
+        }
+      );
+
+      if (response.status) {
+        setStatus(true);
+        setEmai("");
+      }
+    } catch (error) {
+      setStatus(false);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="hero">
@@ -118,18 +119,22 @@ const Hero: React.FC = () => {
                 className="email-input"
                 type="email"
                 value={email}
-                onChange={e => setEmai(e.target.value)}
+                onChange={(e) => setEmai(e.target.value)}
                 placeholder="Email Address"
                 name=""
                 id=""
               />
-             <button type="button" onClick={handleSubmit} className={classNames(
-                "bta-btn",
-                status && 'success-api',
-                !status && 'failure-api',
-                loading && 'processing-api'
-                )}>
-                <p>{`${status ? 'Subscribed!' : 'Join Waitlist'}`}</p>
+              <button
+                type="button"
+                onClick={handleSubmit}
+                className={classNames(
+                  "bta-btn",
+                  status && "success-api",
+                  !status && "failure-api",
+                  loading && "processing-api"
+                )}
+              >
+                <p>{`${status ? "Subscribed!" : "Join Waitlist"}`}</p>
               </button>
             </div>
           </div>

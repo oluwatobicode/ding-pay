@@ -70,7 +70,7 @@ const Features: React.FC = () => {
           <div className="card-image-right">
             <img
               className="feature-img-s"
-              src="public/assets/bussinessFour.png"
+              src="/assets/bussinessFour.png"
               alt="bussiness-four-image"
             />
           </div>
