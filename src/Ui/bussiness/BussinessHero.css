@@ -150,6 +150,19 @@
   cursor: pointer;
 }
 
+.success-api{
+  background-color: #249333;
+}
+
+.failure-api{
+  background-color: #6867E2;
+}
+
+.processing-api{
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 .active-link {
   padding: 0.6rem 1rem;
   background-color: #6867e2;

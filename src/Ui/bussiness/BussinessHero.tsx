@@ -1,8 +1,44 @@
 import { NavLink } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
 import "./BussinessHero.css";
+import classNames from "classnames";
+import axios from "axios";
 
 const BussinessHero: React.FC = () => {
+  const [email, setEmai] = useState('')
+  const [status, setStatus] = useState(false)
+  const [loading, setLoading] = useState(false)
+
+  const baseURL = 'https://ding-pay-subscription-proxy-production.up.railway.app'
+  
+
+  const handleSubmit = async() => { 
+    if (loading) {
+      return
+    }  
+    setLoading(true)
+    try {
+      const response = await axios.post(`${baseURL}/api/subscribe`, {
+        email,
+        tags: ['business']
+      },
+      {
+        withCredentials: true
+      }
+    )
+  
+      if (response.status){
+        setStatus(true)
+        setEmai('')
+      }
+    
+    } catch (error) {
+      setStatus(false)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   return (
     <div className="hero">
       <div className="bussiness-section">
@@ -81,12 +117,19 @@ const BussinessHero: React.FC = () => {
               <input
                 className="email-input"
                 type="email"
+                value={email}
+                onChange={e => setEmai(e.target.value)}
                 placeholder="Email Address"
                 name=""
                 id=""
               />
-              <button className="bta-btn">
-                <p>Join the waitlist</p>
+              <button type="button" onClick={handleSubmit} className={classNames(
+                "bta-btn",
+                status && 'success-api',
+                !status && 'failure-api',
+                loading && 'processing-api'
+                )}>
+                <p>{`${status ? 'Subscribed!' : 'Join Waitlist'}`}</p>
               </button>
             </div>
           </div>

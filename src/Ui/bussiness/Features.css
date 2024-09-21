@@ -1,18 +1,23 @@
 .features-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   gap: 25px;
   width: 100%;
 }
 
 .feature-img {
-  max-width: 500px;
+  /* max-width: 500px; */
+  width: 100%;
 }
 
 .feature-img-s {
-  max-width: 600px;
+  /* max-width: 600px; */
+}
+
+.card-image-left{
+  width: 65%;
 }
 
 .card-left {
@@ -34,7 +39,7 @@
   align-items: center;
   justify-content: center;
   gap: 25px;
-  max-width: 680px;
+  /* max-width: 680px; */
   padding: 1rem;
 }
 
@@ -45,7 +50,7 @@
   align-items: center;
   justify-content: center;
   gap: 25px;
-  max-width: 580px;
+  /* max-width: 580px; */
   padding: 1rem;
 }
 
