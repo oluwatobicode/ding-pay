@@ -5,9 +5,13 @@
   width: 100%;
 }
 
-/* .feature-img {
+.feature-img {
   width: 100%;
-} */
+}
+
+.feature-img-s {
+  width: 100%;
+}
 
 /* .feature-img-s {
   /* max-width: 600px; 
