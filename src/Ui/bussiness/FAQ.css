@@ -155,7 +155,7 @@
     flex-direction: column;
   }
 
-  .faq-image {
+  .bussiness-faq-image {
     width: 100%;
     height: 550px;
   }
@@ -175,5 +175,15 @@
     font-size: 40px;
     text-align: center;
     line-height: 42.2px;
+  }
+
+  .bussiness-faq-image {
+    width: 100%;
+    height: 550px;
+  }
+
+  .bussiness-faq-box {
+    width: 100%;
+    height: 800px;
   }
 }

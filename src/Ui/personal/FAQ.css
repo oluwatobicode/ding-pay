@@ -171,4 +171,14 @@
     text-align: center;
     line-height: 42.2px;
   }
+
+  .faq-image {
+    width: 100%;
+    height: 550px;
+  }
+
+  .faq-box {
+    width: 100%;
+    height: 850px;
+  }
 }

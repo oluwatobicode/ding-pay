@@ -210,6 +210,10 @@
     width: 250px;
     height: 50px;
   }
+
+  .bussiness-intro {
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -236,6 +240,10 @@
     width: 170px;
     height: 50px;
   }
+
+  .bussiness-intro {
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -261,5 +269,9 @@
   .bta-btn {
     width: 170px;
     height: 50px;
+  }
+
+  .bussiness-intro {
+    gap: 0;
   }
 }

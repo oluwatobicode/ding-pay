@@ -197,6 +197,10 @@ a {
     width: 250px;
     height: 50px;
   }
+
+  .hero-intro {
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -223,6 +227,10 @@ a {
     width: 170px;
     height: 50px;
   }
+
+  .hero-intro {
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -248,5 +256,9 @@ a {
   .bta-btn {
     width: 170px;
     height: 50px;
+  }
+
+  .hero-intro {
+    gap: 0;
   }
 }
