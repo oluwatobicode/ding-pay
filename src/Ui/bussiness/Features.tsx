@@ -15,7 +15,10 @@ const Features: React.FC = () => {
           </div>
           <div className="card-text-left">
             <div className="card-text-left-details">
-              <h1>scale your payments</h1>
+              <h1>
+                scale your
+                <span className="card-text-left-bussiness-block">payments</span>
+              </h1>
               <p>
                 Whether you make transactions in thousands or millions, Dingpay
                 is here to make receiving payments seamless.
@@ -53,9 +56,12 @@ const Features: React.FC = () => {
               alt="features-three-image"
             />
           </div>
-          <div className="card-text-left">
+          <div className="card-text-left-business">
             <div className="card-text-left-details">
-              <h1>Scale down on hardware</h1>
+              <h1>
+                Scale down on{" "}
+                <span className="card-text-left-bussiness-block">hardware</span>
+              </h1>
               <p>
                 There is no need to keep on investing in expensive POS
                 terminals. All you need is to turn your smartphone into a
