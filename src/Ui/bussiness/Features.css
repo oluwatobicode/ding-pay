@@ -16,7 +16,7 @@
   /* max-width: 600px; */
 }
 
-.card-image-left{
+.card-image-left {
   width: 65%;
 }
 
@@ -38,7 +38,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 3rem;
   /* max-width: 680px; */
   padding: 1rem;
 }
@@ -49,9 +49,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25px;
-  /* max-width: 580px; */
+  gap: 3rem;
+  /* max-width: 680px; */
   padding: 1rem;
+}
+
+.card-text-left-details {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text-right-details {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-text-left h1 {

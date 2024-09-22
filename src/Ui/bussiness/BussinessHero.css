@@ -28,7 +28,7 @@
 
 .buss-section {
   margin: 2rem;
-  max-width: 990px;
+  max-width: 1035px;
   width: 100%;
 }
 
@@ -78,8 +78,8 @@
   justify-items: center;
   margin-bottom: 5rem;
   max-width: 100%;
-  gap: 25px;
-  margin-top: 2rem;
+  gap: 5rem;
+  margin-top: 3.5rem;
 }
 
 .bussiness-text {

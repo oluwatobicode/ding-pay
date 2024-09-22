@@ -14,24 +14,25 @@ const Features: React.FC = () => {
             />
           </div>
           <div className="card-text-left">
-            <h1>
-              MAKE LARGE AND
-              <span className="card-text-left-block"> SMALL PAYMENTS</span>
-            </h1>
-            <p>
-              Dingpay is here to process your payments as much as your
-              transaction limit permits.
-            </p>
+            <div className="card-text-left-details">
+              <h1>MAKE LARGE AND SMALL PAYMENTS</h1>
+              <p>
+                Dingpay is here to process your payments as much as your
+                transaction limit permits.
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="card-right">
           <div className="card-text-right">
-            <h1>Don’t worry about misplaced cards</h1>
-            <p>
-              Forget about losing or misplacing cards. With Dingpay, you can
-              securely pay without needing physical cards.
-            </p>
+            <div className="card-text-right-details">
+              <h1>Don’t worry about misplaced cards</h1>
+              <p>
+                Forget about losing or misplacing cards. With Dingpay, you can
+                securely pay without needing physical cards.
+              </p>
+            </div>
           </div>
 
           <div className="card-image-right">
@@ -52,11 +53,13 @@ const Features: React.FC = () => {
             />
           </div>
           <div className="card-text-left">
-            <h1>Skip lengthy payment routines</h1>
-            <p>
-              Simplify your transactions: With Dingpay, your payments at
-              checkout are just one sound away.
-            </p>
+            <div className="card-text-left-details">
+              <h1>Skip lengthy payment routines</h1>
+              <p>
+                Simplify your transactions: With Dingpay, your payments at
+                checkout are just one sound away.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -14,22 +14,26 @@ const Features: React.FC = () => {
             />
           </div>
           <div className="card-text-left">
-            <h1>scale your payments</h1>
-            <p>
-              Whether you make transactions in thousands or millions, Dingpay is
-              here to make receiving payments seamless.
-            </p>
+            <div className="card-text-left-details">
+              <h1>scale your payments</h1>
+              <p>
+                Whether you make transactions in thousands or millions, Dingpay
+                is here to make receiving payments seamless.
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="card-right">
           <div className="card-text-right">
-            <h1>Make payments easier for customers</h1>
-            <p>
-              Boost customer satisfaction with seamless, sound-powered
-              transactions. With Dingpay, payments are quick and secure, no
-              extra hardware needed, just a customer’s mobile device.
-            </p>
+            <div className="card-text-right-details">
+              <h1>Make payments easier for customers</h1>
+              <p>
+                Boost customer satisfaction with seamless, sound-powered
+                transactions. With Dingpay, payments are quick and secure, no
+                extra hardware needed, just a customer’s mobile device.
+              </p>
+            </div>
           </div>
 
           <div className="card-image-right">
@@ -50,21 +54,26 @@ const Features: React.FC = () => {
             />
           </div>
           <div className="card-text-left">
-            <h1>Scale down on hardware</h1>
-            <p>
-              There is no need to keep on investing in expensive POS terminals.
-              All you need is to turn your smartphone into a terminal.
-            </p>
+            <div className="card-text-left-details">
+              <h1>Scale down on hardware</h1>
+              <p>
+                There is no need to keep on investing in expensive POS
+                terminals. All you need is to turn your smartphone into a
+                terminal.
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="card-right">
           <div className="card-text-right">
-            <h1>Be your own accountant</h1>
-            <p>
-              Track your revenue, payments and profits from the comfort of your
-              phone.
-            </p>
+            <div className="card-text-right-details">
+              <h1>Be your own accountant</h1>
+              <p>
+                Track your revenue, payments and profits from the comfort of
+                your phone.
+              </p>
+            </div>
           </div>
 
           <div className="card-image-right">

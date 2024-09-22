@@ -19,7 +19,8 @@ const faqItems = [
 ];
 
 const FAQ: React.FC = () => {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  // Set initial state to 0 to open the first FAQ by default
+  const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
   const toggleAccordion = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -63,7 +64,7 @@ const FAQ: React.FC = () => {
           </div>
         </div>
 
-        <div className="faq-image">
+        <div className="bussiness-faq-image">
           <div className="faq-content">
             <h1>COMING SOON</h1>
             <div className="faq-content-into">
