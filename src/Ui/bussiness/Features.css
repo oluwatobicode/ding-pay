@@ -13,13 +13,6 @@
   width: 100%;
 }
 
-/* .feature-img-s {
-  /* max-width: 600px; 
-  
-} 
-  
-*/
-
 .card-image-left {
   width: 65%;
 }
@@ -60,20 +53,16 @@
   display: block;
 }
 
-.card-text-left-details {
+.card-text-left-details-bussiness {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  align-items: center;
-  justify-content: center;
+  gap: 150px;
 }
 
-.card-text-right-details {
+.card-text-right-details-bussiness {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  align-items: center;
-  justify-content: center;
+  gap: 150px;
 }
 
 .card-text-left-business h1 {
@@ -187,6 +176,18 @@
     align-items: unset;
     justify-content: unset;
   }
+
+  .card-text-left-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .card-text-right-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 /* phones */
@@ -214,6 +215,18 @@
     font-size: 28px;
     line-height: 31.9px;
   }
+
+  .card-text-left-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .card-text-right-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -238,6 +251,18 @@
   .card-text-right h1 {
     font-size: 28px;
     line-height: 31.9px;
+  }
+
+  .card-text-left-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .card-text-right-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
 }
 
@@ -279,5 +304,17 @@
   .card-text-right p {
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .card-text-left-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .card-text-right-details-bussiness {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
 }

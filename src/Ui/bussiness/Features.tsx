@@ -13,12 +13,9 @@ const Features: React.FC = () => {
               alt="bussiness-one-image"
             />
           </div>
-          <div className="card-text-left">
-            <div className="card-text-left-details">
-              <h1>
-                scale your
-                <span className="card-text-left-bussiness-block">payments</span>
-              </h1>
+          <div className="card-text-left-business">
+            <div className="card-text-left-details-bussiness">
+              <h1>scale your payments</h1>
               <p>
                 Whether you make transactions in thousands or millions, Dingpay
                 is here to make receiving payments seamless.
@@ -29,7 +26,7 @@ const Features: React.FC = () => {
 
         <div className="card-right">
           <div className="card-text-right">
-            <div className="card-text-right-details">
+            <div className="card-text-right-details-bussiness">
               <h1>Make payments easier for customers</h1>
               <p>
                 Boost customer satisfaction with seamless, sound-powered
@@ -57,11 +54,8 @@ const Features: React.FC = () => {
             />
           </div>
           <div className="card-text-left-business">
-            <div className="card-text-left-details">
-              <h1>
-                Scale down on{" "}
-                <span className="card-text-left-bussiness-block">hardware</span>
-              </h1>
+            <div className="card-text-left-details-bussiness">
+              <h1>Scale down on hardware</h1>
               <p>
                 There is no need to keep on investing in expensive POS
                 terminals. All you need is to turn your smartphone into a
@@ -73,7 +67,7 @@ const Features: React.FC = () => {
 
         <div className="card-right">
           <div className="card-text-right">
-            <div className="card-text-right-details">
+            <div className="card-text-right-details-bussiness">
               <h1>Be your own accountant</h1>
               <p>
                 Track your revenue, payments and profits from the comfort of
