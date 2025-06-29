@@ -3,18 +3,18 @@ import "./Benefits.css";
 const benefits = [
   {
     icon: "/assets/rocket.svg",
-    title: "Make payment in a second",
-    desc: "Every purchase or checkout requires your unique and untraceable authentication via sound frequencies. You alone call the shots.",
+    title: "Faster checkouts",
+    desc: "Complete every sale in seconds using inaudible sound signals. No swipes, no scanning—just sound.",
   },
   {
     icon: "/assets/verify.svg",
-    title: "Your data is protected",
-    desc: "We do not share your card details with merchants or store your card details. This way, no one has access to your details or whereabouts.",
+    title: "Merchant-grade security",
+    desc: "We use end-to-end encryption and never store or expose your customers' payment credentials.",
   },
   {
     icon: "/assets/lock.svg",
-    title: "Privacy",
-    desc: "Your transaction information isn’t shared with anyone. We only store information for fraud protection, regulatory and troubleshooting purposes.",
+    title: "Regulatory-compliant privacy",
+    desc: "We only store what’s required to stay compliant and prevent fraud—nothing more, nothing less.",
   },
 ];
 
@@ -23,10 +23,10 @@ const Benefits = () => {
     <div className="benefits">
       <div className="benefits-section">
         <h1>
-          Experience the future of payments.
+          Modernize your business.
           <span className="benefits-section-span">
             {" "}
-            It’s safe, seamless and simple.
+            Accept payments effortlessly.
           </span>
         </h1>
 

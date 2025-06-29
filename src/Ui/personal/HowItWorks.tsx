@@ -3,17 +3,14 @@ import "./HowItWorks.css";
 const HowItWorks = () => {
   return (
     <section className="how-it-works">
-      <div
-        className="how-it-works-section
-      "
-      >
+      <div className="how-it-works-section">
         <h2 className="section-title">HOW IT WORKS</h2>
         <div className="steps-container">
           <div className="line"></div>
 
           <div className="step">
             <div className="circle">1</div>
-            <p>Download the Dingpay app from your app store.</p>
+            <p>Download the SonaPay app on your mobile device.</p>
             <div className="step-image">
               <img
                 src="/assets/stepone.svg"
@@ -25,11 +22,11 @@ const HowItWorks = () => {
 
           <div className="step">
             <div className="circle">2</div>
-            <p>Add your debit cards to the app.</p>
+            <p>Link your preferred card or crypto wallet securely.</p>
             <div className="step-image">
               <img
                 src="/assets/steptwo.svg"
-                alt="Step 3"
+                alt="Step 2"
                 className="step-img"
               />
             </div>
@@ -37,7 +34,9 @@ const HowItWorks = () => {
 
           <div className="step">
             <div className="circle">3</div>
-            <p>Make payment at point of sale with just a tap.</p>
+            <p>
+              At checkout, use sound to send payments instantly no cards needed.
+            </p>
             <div className="step-image">
               <img
                 src="/assets/stepthree.svg"

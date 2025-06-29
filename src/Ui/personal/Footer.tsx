@@ -8,13 +8,16 @@ const Footer = () => {
       <div className="footer-section">
         <div className="footer-logo">
           <img src="/assets/Dingpay logo.svg" alt="dingpay logo" />
-          <h1 className="footer-logo-text">DingPay</h1>
+          <h1 className="footer-logo-text">SonaPay</h1>
         </div>
 
         <div className="footer-cta">
-          <p>Copyright © DingPay {year}.</p>
+          <p>Copyright © SonaPay {year}.</p>
           <button className="footer-cta-btn">
-            <a href="mailto:" className="footer-cta-link">
+            <a
+              href="mailto:codingninjaaa@gmail.com"
+              className="footer-cta-link"
+            >
               Contact us
             </a>
           </button>

@@ -15,10 +15,10 @@ const Features: React.FC = () => {
           </div>
           <div className="card-text-left-business">
             <div className="card-text-left-details-bussiness">
-              <h1>scale your payments</h1>
+              <h1>Handle any payment volume</h1>
               <p>
-                Whether you make transactions in thousands or millions, Dingpay
-                is here to make receiving payments seamless.
+                Whether you're processing ₦5,000 or ₦5 million, SonaPay Business
+                scales with you effortlessly and reliably.
               </p>
             </div>
           </div>
@@ -27,11 +27,10 @@ const Features: React.FC = () => {
         <div className="card-right">
           <div className="card-text-right">
             <div className="card-text-right-details-bussiness">
-              <h1>Make payments easier for customers</h1>
+              <h1>Delight your customers</h1>
               <p>
-                Boost customer satisfaction with seamless, sound-powered
-                transactions. With Dingpay, payments are quick and secure, no
-                extra hardware needed, just a customer’s mobile device.
+                Provide faster, frictionless payments. Customers only need their
+                mobile phone to complete a purchase.
               </p>
             </div>
           </div>
@@ -55,11 +54,10 @@ const Features: React.FC = () => {
           </div>
           <div className="card-text-left-business">
             <div className="card-text-left-details-bussiness">
-              <h1>Scale down on hardware</h1>
+              <h1> No more terminals</h1>
               <p>
-                There is no need to keep on investing in expensive POS
-                terminals. All you need is to turn your smartphone into a
-                terminal.
+                Eliminate bulky hardware and setup fees. Your phone becomes your
+                all-in-one point-of-sale.
               </p>
             </div>
           </div>
@@ -68,10 +66,10 @@ const Features: React.FC = () => {
         <div className="card-right">
           <div className="card-text-right">
             <div className="card-text-right-details-bussiness">
-              <h1>Be your own accountant</h1>
+              <h1>Built-in business insights</h1>
               <p>
-                Track your revenue, payments and profits from the comfort of
-                your phone.
+                Get real-time visibility on transactions, revenue trends, and
+                customer activity—right from your dashboard.
               </p>
             </div>
           </div>

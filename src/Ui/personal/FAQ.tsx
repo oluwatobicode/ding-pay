@@ -5,20 +5,20 @@ import { FaPlus } from "react-icons/fa6";
 
 const faqItems = [
   {
-    title: "How secure is Ding Pay?",
-    desc: "Dingpay is as secure as any other POS transaction, even better. We use unique sound frequencies that are untraceable and inaudible to the human ear. We don't share your card details with merchants, and your actual card numbers aren't stored on your device or on Dingpay's servers. In short, Dingpay is not just secure, but you also are secure.",
+    title: "Is SonaPay safe to use?",
+    desc: "Absolutely. SonaPay's proprietary sound-based system uses encrypted audio pulses that are unique to each transaction and unreadable to anyone else. It’s more secure than a tap or swipe.",
   },
   {
-    title: "Which banks support Ding Pay?",
-    desc: "Ding Pay is currently working to be compatible with major credit and debit cards from banks in Nigeria, with more added all the time. View the banks that support Ding pay here.",
+    title: "What banks and cards work with SonaPay?",
+    desc: "SonaPay supports most major cards and banks. We’re adding new partners regularly to ensure a seamless experience for both customers and businesses.",
   },
   {
-    title: "Does it cost extra to use Ding Pay?",
-    desc: "No. Ding Pay does not charge any fees when you make payments in a store, or online.",
+    title: "Do I have to pay extra to use it?",
+    desc: "No hidden charges. Transactions through SonaPay are free for everyday users. Merchants enjoy low processing fees with no surprises.",
   },
   {
-    title: "Can I use Ding Pay abroad?",
-    desc: "Dingpay is currently available in Nigeria. We’re working on expanding to more countries sooner than you think. So stay tuned.",
+    title: "Can I use it outside my country?",
+    desc: "Currently, SonaPay is rolling out across select countries. Cross-border support is in the works—so keep an ear out.",
   },
 ];
 
@@ -34,7 +34,7 @@ const FAQ: React.FC = () => {
     <section className="faq">
       <div className="faq-section">
         <div className="faq-box">
-          <h1 className="faq-box-title">FREQUENTLY ASKED QUESTIONS</h1>
+          <h1 className="faq-box-title">QUESTIONS? WE’VE GOT ANSWERS</h1>
 
           <div className="faq-section-box">
             {faqItems.map((el, i) => (

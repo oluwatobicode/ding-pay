@@ -5,17 +5,15 @@ import classNames from "classnames";
 import axios from "axios";
 
 const Hero: React.FC = () => {
-  const [email, setEmai] = useState("");
+  const [email, setEmail] = useState("");
   const [status, setStatus] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const baseURL =
-    "https://ding-pay-subscription-proxy-production.up.railway.app";
+    "https://ding-pay-subscription-proxy-production.up.railway.app"; // optional: rename if updating backend
 
   const handleSubmit = async () => {
-    if (loading) {
-      return;
-    }
+    if (loading) return;
     setLoading(true);
     try {
       const response = await axios.post(
@@ -31,7 +29,7 @@ const Hero: React.FC = () => {
 
       if (response.status) {
         setStatus(true);
-        setEmai("");
+        setEmail("");
       }
     } catch (error) {
       setStatus(false);
@@ -46,8 +44,8 @@ const Hero: React.FC = () => {
         <nav className="nav-section">
           <div className="nav-bar">
             <div className="logo">
-              <img src="/assets/Dingpay logo.svg" alt="" />
-              <h1 className="ding-pay-text">DingPay</h1>
+              <img src="/assets/Dingpay logo.svg" alt="SonaPay logo" />
+              <h1 className="ding-pay-text">SonaPay</h1>
 
               <div className="nav-links">
                 <ul className="nav-items">
@@ -61,7 +59,6 @@ const Hero: React.FC = () => {
                       <span>Personal</span>
                     </NavLink>
                   </li>
-
                   <li className="nav-link">
                     <NavLink
                       to="/Business"
@@ -88,7 +85,6 @@ const Hero: React.FC = () => {
                     <span>Demo</span>
                   </NavLink>
                 </li>
-
                 <li className="nav-link">
                   <NavLink
                     to="/blog"
@@ -107,22 +103,21 @@ const Hero: React.FC = () => {
         <div className="hero-intro">
           <div className="heading-text">
             <h1>
-              Seamless payments with
-              <span className="heading-text-span">a sound unique to you.</span>
+              Tap into payments
+              <span className="heading-text-span"> powered by sound.</span>
             </h1>
             <p>
-              Experience the future of payments with unique and untraceable
-              sound from your mobile phone. It’s safe, seamless and simple.
+              SonaPay lets you pay or get paid with a silent sound from your
+              phone. It’s fast, secure, and built for the future no cards, no
+              codes, just a signal.
             </p>
             <div className="cta">
               <input
                 className="email-input"
                 type="email"
                 value={email}
-                onChange={(e) => setEmai(e.target.value)}
-                placeholder="Email Address"
-                name=""
-                id=""
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email"
               />
               <button
                 type="button"
@@ -142,7 +137,7 @@ const Hero: React.FC = () => {
             <img
               className="hero-illustration"
               src="/assets/personal-hero-illustartion.png"
-              alt="hero-illustration"
+              alt="SonaPay illustration"
             />
           </div>
         </div>

@@ -5,16 +5,16 @@ import { FaPlus } from "react-icons/fa6";
 
 const faqItems = [
   {
-    title: "What kind of phone can I use to access the Ding Wallet?",
-    desc: "Any iOS or Android device can access the Ding wallet.",
+    title: "What kind of phone do I need to use SonaPay Business?",
+    desc: "Any iOS or Android phone with an active internet connection can run the app and accept payments.",
   },
   {
-    title: "What kind of phone does my customer need to make payments?",
-    desc: "Any iOS or Android device with the Dingpay app installed can be used for seamless transactions.",
+    title: "What phone does my customer need to make a payment?",
+    desc: "Any smartphone that has the SonaPay Personal app installed can emit the payment sound.",
   },
   {
-    title: "What will it cost me to use the Ding Wallet?",
-    desc: "We only charge for transactions.",
+    title: "Are there any fees?",
+    desc: "We charge a small transaction fee per payment. There are no setup or monthly fees.",
   },
 ];
 
@@ -30,7 +30,7 @@ const FAQ: React.FC = () => {
     <section className="faq">
       <div className="faq-section">
         <div className="bussiness-faq-box">
-          <h1 className="faq-box-title">FREQUENTLY ASKED QUESTIONS</h1>
+          <h1 className="faq-box-title">QUESTIONS? WE’VE GOT ANSWERS</h1>
 
           <div className="faqs-content">
             <div className="faq-section-box">

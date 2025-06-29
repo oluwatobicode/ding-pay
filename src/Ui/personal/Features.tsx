@@ -10,15 +10,15 @@ const Features: React.FC = () => {
             <img
               className="feature-img"
               src="/assets/featureOne.png"
-              alt="features-one-image"
+              alt="send-payments-any-amount"
             />
           </div>
           <div className="card-text-left">
             <div className="card-text-left-details">
-              <h1>MAKE LARGE AND SMALL PAYMENTS</h1>
+              <h1>Pay Any Amount, Anytime</h1>
               <p>
-                Dingpay is here to process your payments as much as your
-                transaction limit permits.
+                Whether you're buying snacks or settling bills, SonaPay lets you
+                send and receive payments instantly—no matter the size.
               </p>
             </div>
           </div>
@@ -27,10 +27,10 @@ const Features: React.FC = () => {
         <div className="card-right">
           <div className="card-text-right">
             <div className="card-text-right-details">
-              <h1>Don’t worry about misplaced cards</h1>
+              <h1>No Cards? No Problem.</h1>
               <p>
-                Forget about losing or misplacing cards. With Dingpay, you can
-                securely pay without needing physical cards.
+                With SonaPay, there’s no need to carry cards. Just use your
+                phone’s secure sound technology to complete your payment.
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Features: React.FC = () => {
             <img
               className="feature-img-s"
               src="/assets/featureTwo.png"
-              alt="features-two-image"
+              alt="contactless-payment"
             />
           </div>
         </div>
@@ -49,15 +49,15 @@ const Features: React.FC = () => {
             <img
               className="feature-img"
               src="/assets/featureThree.png"
-              alt="features-three-image"
+              alt="instant-checkout"
             />
           </div>
           <div className="card-text-left">
             <div className="card-text-left-details">
-              <h1>Skip lengthy payment routines</h1>
+              <h1>One Sound. One Checkout.</h1>
               <p>
-                Simplify your transactions: With Dingpay, your payments at
-                checkout are just one sound away.
+                Say goodbye to queues and PIN delays. SonaPay completes your
+                transactions with a single, silent sound signal.
               </p>
             </div>
           </div>
@@ -66,4 +66,5 @@ const Features: React.FC = () => {
     </section>
   );
 };
+
 export default Features;

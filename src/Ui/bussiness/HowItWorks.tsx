@@ -13,7 +13,7 @@ const HowItWorks = () => {
 
           <div className="step">
             <div className="circle">1</div>
-            <p>Download the Dingpay app from your app store.</p>
+            <p>Download the SonaPay Business app to get started.</p>
             <div className="step-image">
               <img
                 src="/assets/stepone.svg"
@@ -25,7 +25,7 @@ const HowItWorks = () => {
 
           <div className="step">
             <div className="circle">2</div>
-            <p>Complete our KYC requirements.</p>
+            <p>Verify your identity by completing our merchant onboarding.</p>
             <div className="step-image">
               <img
                 src="/assets/bussinesssteptwo.svg"
@@ -37,7 +37,10 @@ const HowItWorks = () => {
 
           <div className="step">
             <div className="circle">3</div>
-            <p>Accept payments instantly from your mobile device.</p>
+            <p>
+              Start receiving payments instantly using your phone’s built-in
+              speaker.
+            </p>
             <div className="step-image">
               <img
                 src="/assets/bussinessstepthree.svg"

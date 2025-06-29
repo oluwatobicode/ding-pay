@@ -5,39 +5,40 @@ import classNames from "classnames";
 import axios from "axios";
 
 const BussinessHero: React.FC = () => {
-  const [email, setEmai] = useState('')
-  const [status, setStatus] = useState(false)
-  const [loading, setLoading] = useState(false)
+  const [email, setEmai] = useState("");
+  const [status, setStatus] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const baseURL = 'https://ding-pay-subscription-proxy-production.up.railway.app'
-  
+  const baseURL =
+    "https://ding-pay-subscription-proxy-production.up.railway.app";
 
-  const handleSubmit = async() => { 
+  const handleSubmit = async () => {
     if (loading) {
-      return
-    }  
-    setLoading(true)
-    try {
-      const response = await axios.post(`${baseURL}/api/subscribe`, {
-        email,
-        tags: ['business']
-      },
-      {
-        withCredentials: true
-      }
-    )
-  
-      if (response.status){
-        setStatus(true)
-        setEmai('')
-      }
-    
-    } catch (error) {
-      setStatus(false)
-    } finally {
-      setLoading(false)
+      return;
     }
-  }
+    setLoading(true);
+    try {
+      const response = await axios.post(
+        `${baseURL}/api/subscribe`,
+        {
+          email,
+          tags: ["business"],
+        },
+        {
+          withCredentials: true,
+        }
+      );
+
+      if (response.status) {
+        setStatus(true);
+        setEmai("");
+      }
+    } catch (error) {
+      setStatus(false);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="hero">
@@ -46,7 +47,7 @@ const BussinessHero: React.FC = () => {
           <div className="nav-bar">
             <div className="logo">
               <img src="/assets/Dingpay logo.svg" alt="" />
-              <h1 className="ding-pay-text">DingPay</h1>
+              <h1 className="ding-pay-text">SonaPay</h1>
 
               <div className="nav-links">
                 <ul className="bussiness-items">
@@ -106,30 +107,34 @@ const BussinessHero: React.FC = () => {
         <div className="bussiness-intro">
           <div className="bussiness-text">
             <h1>
-              Turn your mobile phone to <span>A POS SYSTEM</span>
+              Transform your phone into a <span>Sound-Activated POS</span>
             </h1>
             <p>
-              We’ve simplified your business payments, now you can receive them
-              conveniently on your phone without the aid of a hardware terminal,
-              USSD or bank transfers.
+              SonaPay Business replaces terminals with your smartphone. Accept
+              payments on the spot—no cables, no USSD, no bank transfers. Just
+              pure wireless sound.
             </p>
             <div className="cta">
               <input
                 className="email-input"
                 type="email"
                 value={email}
-                onChange={e => setEmai(e.target.value)}
+                onChange={(e) => setEmai(e.target.value)}
                 placeholder="Email Address"
                 name=""
                 id=""
               />
-              <button type="button" onClick={handleSubmit} className={classNames(
-                "bta-btn",
-                status && 'success-api',
-                !status && 'failure-api',
-                loading && 'processing-api'
-                )}>
-                <p>{`${status ? 'Subscribed!' : 'Join Waitlist'}`}</p>
+              <button
+                type="button"
+                onClick={handleSubmit}
+                className={classNames(
+                  "bta-btn",
+                  status && "success-api",
+                  !status && "failure-api",
+                  loading && "processing-api"
+                )}
+              >
+                <p>{`${status ? "Subscribed!" : "Join Waitlist"}`}</p>
               </button>
             </div>
           </div>

@@ -3,18 +3,18 @@ import "./Benefits.css";
 const benefits = [
   {
     icon: "/assets/rocket.svg",
-    title: "Make payment in a second",
-    desc: "Every purchase or checkout requires your unique and untraceable authentication via sound frequencies. You alone call the shots.",
+    title: "Faster Than Tap",
+    desc: "SonaPay uses encrypted sound waves to complete transactions in seconds. No QR scans, no cards—just sound and speed.",
   },
   {
     icon: "/assets/verify.svg",
-    title: "Your data is protected",
-    desc: "We do not share your card details with merchants or store your card details. This way, no one has access to your details or whereabouts.",
+    title: "Data Stays Encrypted",
+    desc: "Your card and wallet information is never shared or saved. Every transaction is protected by layers of audio encryption.",
   },
   {
     icon: "/assets/lock.svg",
-    title: "Privacy",
-    desc: "Your transaction information isn’t shared with anyone. We only store information for fraud protection, regulatory and troubleshooting purposes.",
+    title: "Built for Privacy",
+    desc: "SonaPay ensures that your personal and transaction data remains private. Only you hear the signal—no one else needs to know.",
   },
 ];
 
